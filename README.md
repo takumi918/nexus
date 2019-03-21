@@ -11,3 +11,13 @@ JavaScriptによる背景アニメーション.
 * `density` Integer
 
 `rectSize`px、色は`rectColor`(CSSと同じ記法て記述)の正方形で描画を開始する. `density`(1-15の数値)が大きいほどスプライトの数が多くなる. ページの読み込み完了後に実行する.
+
+```html
+<script src="enchant.js"></script>
+<script src="nexus.js"></script>
+<script>
+  window.onload = () => {
+    nexus.draw(12, "#eaeaea", 3);
+  }
+</script>
+```
